@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-23T16:17:32.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="xcqG44ZSJUPzLVrT09Y-" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-24T11:48:59.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="2EaVSFFgGO9zLUArak16" version="12.2.9" type="github" pages="1">
   <diagram id="NrIvqm2L9wh9Wv8_eSVh" name="Page-1">
-    <mxGraphModel dx="931" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -13,19 +13,16 @@
         <mxCell id="HKB_gZVolKfRAvYPVZ23-7" value="Client&lt;br&gt;(browser)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="140" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="HKB_gZVolKfRAvYPVZ23-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKB_gZVolKfRAvYPVZ23-9" target="HKB_gZVolKfRAvYPVZ23-7">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="HKB_gZVolKfRAvYPVZ23-9" value="Interactive signature input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="HKB_gZVolKfRAvYPVZ23-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKB_gZVolKfRAvYPVZ23-10" target="HKB_gZVolKfRAvYPVZ23-7">
+        <mxCell id="HKB_gZVolKfRAvYPVZ23-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HKB_gZVolKfRAvYPVZ23-23" target="HKB_gZVolKfRAvYPVZ23-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="305" as="targetPoint"/>
+            <mxPoint x="210" y="230" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HKB_gZVolKfRAvYPVZ23-10" value="Signature photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="80" width="120" height="60" as="geometry"/>
+        <mxCell id="HKB_gZVolKfRAvYPVZ23-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HKB_gZVolKfRAvYPVZ23-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="305" as="targetPoint"/>
+            <mxPoint x="210" y="110" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HKB_gZVolKfRAvYPVZ23-19" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HKB_gZVolKfRAvYPVZ23-2" target="HKB_gZVolKfRAvYPVZ23-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -38,6 +35,12 @@
             <mxPoint x="370" y="170" as="sourcePoint"/>
             <mxPoint x="400" y="140" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HKB_gZVolKfRAvYPVZ23-22" value="&lt;span style=&quot;white-space: normal&quot;&gt;Signature photo&lt;br&gt;input&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="HKB_gZVolKfRAvYPVZ23-23" value="Interactive&lt;br&gt;signature input&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
